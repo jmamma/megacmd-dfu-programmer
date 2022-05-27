@@ -90,6 +90,7 @@ struct target_mapping_structure {
 static struct target_mapping_structure target_map[] = {
     // START_TARGET_LIST_LINE .. used for autocompletion script
     // Name             ID (arguments.h)    DevType    PID     VID     MemSize  BootSz  BootLoc  FPage EPage  ESize
+    /*
     { "at89c51snd1c",   tar_at89c51snd1c,   ADC_8051,  0x2FFF, 0x03eb, 0x10000, 0x1000, BL_TOP,    128,   0,      0 },
     { "at89c51snd2c",   tar_at89c51snd2c,   ADC_8051,  0x2FFF, 0x03eb, 0x10000, 0x1000, BL_TOP,    128,   0,      0 },
     { "at89c5130",      tar_at89c5130,      ADC_8051,  0x2FFD, 0x03eb, 0x04000, 0x0C00, 0xF400,    128, 128, 0x0400 },
@@ -106,11 +107,14 @@ static struct target_mapping_structure target_map[] = {
     { "at90usb82",      tar_at90usb82,      ADC_AVR,   0x2FF7, 0x03eb, 0x02000, 0x1000, BL_TOP,    128, 128, 0x0200 },
     { "atmega32u6",     tar_atmega32u6,     ADC_AVR,   0x2FF2, 0x03eb, 0x08000, 0x1000, BL_TOP,    128, 128, 0x0400 },
     { "atmega32u4",     tar_atmega32u4,     ADC_AVR,   0x2FF4, 0x03eb, 0x08000, 0x1000, BL_TOP,    128, 128, 0x0400 },
+    */
     { "atmega32u2",     tar_atmega32u2,     ADC_AVR,   0x2FF0, 0x03eb, 0x08000, 0x1000, BL_TOP,    128, 128, 0x0400 },
-    { "atmega16u4",     tar_atmega16u4,     ADC_AVR,   0x2FF3, 0x03eb, 0x04000, 0x1000, BL_TOP,    128, 128, 0x0200 },
+    //{ "atmega16u4",     tar_atmega16u4,     ADC_AVR,   0x2FF3, 0x03eb, 0x04000, 0x1000, BL_TOP,    128, 128, 0x0200 },
     { "atmega16u2",     tar_atmega16u2,     ADC_AVR,   0x2FEF, 0x03eb, 0x04000, 0x1000, BL_TOP,    128, 128, 0x0200 },
+    { "MegaCMD",        tar_MegaCMD,        ADC_AVR,   0x3070, 0x1209, 0x04000, 0x1000, BL_TOP,    128, 128, 0x0200 },
     { "atmega8u2",      tar_atmega8u2,      ADC_AVR,   0x2FEE, 0x03eb, 0x02000, 0x1000, BL_TOP,    128, 128, 0x0200 },
     // Name             ID (arguments.h)    DevType    PID     VID     MemSize  BootSz  BootLoc  FPage EPage  ESize
+    /*
     { "at32uc3a0128",   tar_at32uc3a0128,   ADC_AVR32, 0x2FF8, 0x03eb, 0x20000, 0x2000, BL_BASE,   512,   0,      0 },
     { "at32uc3a1128",   tar_at32uc3a1128,   ADC_AVR32, 0x2FF8, 0x03eb, 0x20000, 0x2000, BL_BASE,   512,   0,      0 },
     { "at32uc3a0256",   tar_at32uc3a0256,   ADC_AVR32, 0x2FF8, 0x03eb, 0x40000, 0x2000, BL_BASE,   512,   0,      0 },
@@ -180,7 +184,7 @@ static struct target_mapping_structure target_map[] = {
     { "stm32f4_C",      tar_stm32f4_C,      DC_STM32,  0xdf11, 0x0483, 0x40000, 0x0000, BL_EXTRA,  512,   0,      0 },
     { "stm32f4_E",      tar_stm32f4_E,      DC_STM32,  0xdf11, 0x0483, 0x80000, 0x0000, BL_EXTRA,  512,   0,      0 },
     { "stm32f4_G",      tar_stm32f4_G,      DC_STM32,  0xdf11, 0x0483, 0x100000,0x0000, BL_EXTRA,  512,   0,      0 },
-    { NULL }
+    { NULL } */
     // END_TARGET_LIST_LINE .. used for autocompletion script
 };
 

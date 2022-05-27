@@ -48,7 +48,7 @@ enum return_codes_enum {
     VALIDATION_ERROR_IN_REGION,
     VALIDATION_ERROR_OUTSIDE_REGION };
 
-enum targets_enum { tar_at89c51snd1c,
+enum targets_enum { /* tar_at89c51snd1c,
                     tar_at89c51snd2c,
                     tar_at89c5130,
                     tar_at89c5131,
@@ -63,10 +63,13 @@ enum targets_enum { tar_at89c51snd1c,
                     tar_at90usb82,
                     tar_atmega32u6,
                     tar_atmega32u4,
+                    */
                     tar_atmega32u2,
-                    tar_atmega16u4,
+                    tar_MegaCMD,
+                   // tar_atmega16u4,
                     tar_atmega16u2,
                     tar_atmega8u2,
+                   /*
                     tar_at32uc3b064,
                     tar_at32uc3b164,
                     tar_at32uc3b0128,
@@ -128,7 +131,7 @@ enum targets_enum { tar_at89c51snd1c,
                     tar_stm32f4_B,
                     tar_stm32f4_C,
                     tar_stm32f4_E,
-                    tar_stm32f4_G,
+                    tar_stm32f4_G,*/
                     tar_none };
 
 enum commands_enum { com_none, com_erase, com_flash, com_user, com_eflash,
